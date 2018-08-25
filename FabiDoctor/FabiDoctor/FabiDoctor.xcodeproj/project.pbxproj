@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6081AF62130D3E700C0D90D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081AF52130D3E700C0D90D /* AppDelegate.swift */; };
+		C6081AF82130D3E700C0D90D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081AF72130D3E700C0D90D /* LoginViewController.swift */; };
+		C6081AFB2130D3E700C0D90D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6081AF92130D3E700C0D90D /* Main.storyboard */; };
+		C6081AFD2130D3E900C0D90D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6081AFC2130D3E900C0D90D /* Assets.xcassets */; };
+		C6081B002130D3E900C0D90D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6081AFE2130D3E900C0D90D /* LaunchScreen.storyboard */; };
+		C6081B0B2131372000C0D90D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B0A2131372000C0D90D /* SignUpViewController.swift */; };
+		C6081B0D2131373000C0D90D /* FabitoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B0C2131373000C0D90D /* FabitoViewController.swift */; };
+		C6081B0F2131375D00C0D90D /* AddSymptomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B0E2131375D00C0D90D /* AddSymptomViewController.swift */; };
+		C6081B112131379500C0D90D /* RecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B102131379500C0D90D /* RecordsViewController.swift */; };
+		C6081B132131380B00C0D90D /* PresentDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B122131380B00C0D90D /* PresentDataViewController.swift */; };
+		C6081B152131382300C0D90D /* AddDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B142131382300C0D90D /* AddDataViewController.swift */; };
+		C6081B172131389700C0D90D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B162131389700C0D90D /* SettingsViewController.swift */; };
+		C6081B1B2131399100C0D90D /* CellFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B1A2131399100C0D90D /* CellFactory.swift */; };
+		C6081B1D213139AA00C0D90D /* ViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B1C213139AA00C0D90D /* ViewControllerFactory.swift */; };
+		C6081B1F213139B100C0D90D /* SegueIds.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B1E213139B100C0D90D /* SegueIds.swift */; };
+		C6081B2221313BD000C0D90D /* BodyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B2121313BD000C0D90D /* BodyInfo.swift */; };
+		C6081B2421313DE000C0D90D /* Symptom.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B2321313DE000C0D90D /* Symptom.swift */; };
+		C6081B2621313EA100C0D90D /* AppShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B2521313EA100C0D90D /* AppShared.swift */; };
+		C6081B2821313EC400C0D90D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B2721313EC400C0D90D /* User.swift */; };
+		C6081B2B21313FF000C0D90D /* UserServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B2A21313FF000C0D90D /* UserServices.swift */; };
+		C6081B2D2131426900C0D90D /* RecordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B2C2131426900C0D90D /* RecordCollectionViewCell.swift */; };
+		C6081B2F21314FD400C0D90D /* ImageNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B2E21314FD400C0D90D /* ImageNames.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C6081AF22130D3E700C0D90D /* FabiDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FabiDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6081AF52130D3E700C0D90D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6081AF72130D3E700C0D90D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C6081AFA2130D3E700C0D90D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6081AFC2130D3E900C0D90D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6081AFF2130D3E900C0D90D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6081B012130D3E900C0D90D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6081B0A2131372000C0D90D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C6081B0C2131373000C0D90D /* FabitoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabitoViewController.swift; sourceTree = "<group>"; };
+		C6081B0E2131375D00C0D90D /* AddSymptomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSymptomViewController.swift; sourceTree = "<group>"; };
+		C6081B102131379500C0D90D /* RecordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsViewController.swift; sourceTree = "<group>"; };
+		C6081B122131380B00C0D90D /* PresentDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentDataViewController.swift; sourceTree = "<group>"; };
+		C6081B142131382300C0D90D /* AddDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDataViewController.swift; sourceTree = "<group>"; };
+		C6081B162131389700C0D90D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C6081B1A2131399100C0D90D /* CellFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellFactory.swift; sourceTree = "<group>"; };
+		C6081B1C213139AA00C0D90D /* ViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFactory.swift; sourceTree = "<group>"; };
+		C6081B1E213139B100C0D90D /* SegueIds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueIds.swift; sourceTree = "<group>"; };
+		C6081B2121313BD000C0D90D /* BodyInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyInfo.swift; sourceTree = "<group>"; };
+		C6081B2321313DE000C0D90D /* Symptom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptom.swift; sourceTree = "<group>"; };
+		C6081B2521313EA100C0D90D /* AppShared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppShared.swift; sourceTree = "<group>"; };
+		C6081B2721313EC400C0D90D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C6081B2A21313FF000C0D90D /* UserServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServices.swift; sourceTree = "<group>"; };
+		C6081B2C2131426900C0D90D /* RecordCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCollectionViewCell.swift; sourceTree = "<group>"; };
+		C6081B2E21314FD400C0D90D /* ImageNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageNames.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6081AEF2130D3E700C0D90D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6081AE92130D3E600C0D90D = {
+			isa = PBXGroup;
+			children = (
+				C6081AF42130D3E700C0D90D /* FabiDoctor */,
+				C6081AF32130D3E700C0D90D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6081AF32130D3E700C0D90D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6081AF22130D3E700C0D90D /* FabiDoctor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6081AF42130D3E700C0D90D /* FabiDoctor */ = {
+			isa = PBXGroup;
+			children = (
+				C6081B012130D3E900C0D90D /* Info.plist */,
+				C6081AFC2130D3E900C0D90D /* Assets.xcassets */,
+				C6081AF52130D3E700C0D90D /* AppDelegate.swift */,
+				C6081B2021313BB200C0D90D /* Data Structures & Enums */,
+				C6081B192131397400C0D90D /* Factories */,
+				C6081B2921313FDD00C0D90D /* Services */,
+				C6081B072131366C00C0D90D /* Views & Controllers */,
+				C6081B2521313EA100C0D90D /* AppShared.swift */,
+			);
+			path = FabiDoctor;
+			sourceTree = "<group>";
+		};
+		C6081B072131366C00C0D90D /* Views & Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C6081B18213138B000C0D90D /* Cells */,
+				C6081B09213136EB00C0D90D /* Views */,
+				C6081B08213136E300C0D90D /* Controllers */,
+			);
+			path = "Views & Controllers";
+			sourceTree = "<group>";
+		};
+		C6081B08213136E300C0D90D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C6081AF72130D3E700C0D90D /* LoginViewController.swift */,
+				C6081B0A2131372000C0D90D /* SignUpViewController.swift */,
+				C6081B0C2131373000C0D90D /* FabitoViewController.swift */,
+				C6081B0E2131375D00C0D90D /* AddSymptomViewController.swift */,
+				C6081B102131379500C0D90D /* RecordsViewController.swift */,
+				C6081B122131380B00C0D90D /* PresentDataViewController.swift */,
+				C6081B142131382300C0D90D /* AddDataViewController.swift */,
+				C6081B162131389700C0D90D /* SettingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C6081B09213136EB00C0D90D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C6081AFE2130D3E900C0D90D /* LaunchScreen.storyboard */,
+				C6081AF92130D3E700C0D90D /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C6081B18213138B000C0D90D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C6081B2C2131426900C0D90D /* RecordCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C6081B192131397400C0D90D /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				C6081B1A2131399100C0D90D /* CellFactory.swift */,
+				C6081B1C213139AA00C0D90D /* ViewControllerFactory.swift */,
+				C6081B1E213139B100C0D90D /* SegueIds.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		C6081B2021313BB200C0D90D /* Data Structures & Enums */ = {
+			isa = PBXGroup;
+			children = (
+				C6081B2121313BD000C0D90D /* BodyInfo.swift */,
+				C6081B2321313DE000C0D90D /* Symptom.swift */,
+				C6081B2721313EC400C0D90D /* User.swift */,
+				C6081B2E21314FD400C0D90D /* ImageNames.swift */,
+			);
+			path = "Data Structures & Enums";
+			sourceTree = "<group>";
+		};
+		C6081B2921313FDD00C0D90D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C6081B2A21313FF000C0D90D /* UserServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6081AF12130D3E700C0D90D /* FabiDoctor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6081B042130D3E900C0D90D /* Build configuration list for PBXNativeTarget "FabiDoctor" */;
+			buildPhases = (
+				C6081AEE2130D3E700C0D90D /* Sources */,
+				C6081AEF2130D3E700C0D90D /* Frameworks */,
+				C6081AF02130D3E700C0D90D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FabiDoctor;
+			productName = FabiDoctor;
+			productReference = C6081AF22130D3E700C0D90D /* FabiDoctor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6081AEA2130D3E600C0D90D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Rodrigo Hilkner";
+				TargetAttributes = {
+					C6081AF12130D3E700C0D90D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C6081AED2130D3E600C0D90D /* Build configuration list for PBXProject "FabiDoctor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6081AE92130D3E600C0D90D;
+			productRefGroup = C6081AF32130D3E700C0D90D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6081AF12130D3E700C0D90D /* FabiDoctor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6081AF02130D3E700C0D90D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6081B002130D3E900C0D90D /* LaunchScreen.storyboard in Resources */,
+				C6081AFD2130D3E900C0D90D /* Assets.xcassets in Resources */,
+				C6081AFB2130D3E700C0D90D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6081AEE2130D3E700C0D90D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6081B2F21314FD400C0D90D /* ImageNames.swift in Sources */,
+				C6081B152131382300C0D90D /* AddDataViewController.swift in Sources */,
+				C6081B0F2131375D00C0D90D /* AddSymptomViewController.swift in Sources */,
+				C6081B0B2131372000C0D90D /* SignUpViewController.swift in Sources */,
+				C6081B132131380B00C0D90D /* PresentDataViewController.swift in Sources */,
+				C6081B2821313EC400C0D90D /* User.swift in Sources */,
+				C6081B1B2131399100C0D90D /* CellFactory.swift in Sources */,
+				C6081B2621313EA100C0D90D /* AppShared.swift in Sources */,
+				C6081B2421313DE000C0D90D /* Symptom.swift in Sources */,
+				C6081B0D2131373000C0D90D /* FabitoViewController.swift in Sources */,
+				C6081AF82130D3E700C0D90D /* LoginViewController.swift in Sources */,
+				C6081AF62130D3E700C0D90D /* AppDelegate.swift in Sources */,
+				C6081B112131379500C0D90D /* RecordsViewController.swift in Sources */,
+				C6081B2221313BD000C0D90D /* BodyInfo.swift in Sources */,
+				C6081B172131389700C0D90D /* SettingsViewController.swift in Sources */,
+				C6081B2B21313FF000C0D90D /* UserServices.swift in Sources */,
+				C6081B1F213139B100C0D90D /* SegueIds.swift in Sources */,
+				C6081B1D213139AA00C0D90D /* ViewControllerFactory.swift in Sources */,
+				C6081B2D2131426900C0D90D /* RecordCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C6081AF92130D3E700C0D90D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6081AFA2130D3E700C0D90D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6081AFE2130D3E900C0D90D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6081AFF2130D3E900C0D90D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6081B022130D3E900C0D90D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6081B032130D3E900C0D90D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6081B052130D3E900C0D90D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HMM2SSNKR5;
+				INFOPLIST_FILE = FabiDoctor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xpt.FabiDoctor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6081B062130D3E900C0D90D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HMM2SSNKR5;
+				INFOPLIST_FILE = FabiDoctor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xpt.FabiDoctor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6081AED2130D3E600C0D90D /* Build configuration list for PBXProject "FabiDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6081B022130D3E900C0D90D /* Debug */,
+				C6081B032130D3E900C0D90D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6081B042130D3E900C0D90D /* Build configuration list for PBXNativeTarget "FabiDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6081B052130D3E900C0D90D /* Debug */,
+				C6081B062130D3E900C0D90D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6081AEA2130D3E600C0D90D /* Project object */;
+}
