@@ -16,8 +16,9 @@ public enum CellType: String {
 
 class CellFactory {
 
-    static func recordCell(collectionView: UICollectionView, indexPath: IndexPath, image: UIImage) -> RecordCollectionViewCell {
+    static func recordCell(collectionView: UICollectionView, indexPath: IndexPath, title: String, image: UIImage) -> RecordCollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CellType.record.rawValue, for: indexPath) as! RecordCollectionViewCell
+        cell.recordLabel.text = title
         cell.imageView.image = image
         return cell
     }

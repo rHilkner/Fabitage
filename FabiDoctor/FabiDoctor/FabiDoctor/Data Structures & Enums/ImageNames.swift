@@ -9,10 +9,11 @@
 import Foundation
 
 public enum ImageNames: String {
-    case symptomJournal = "Diario de sintomas"
-    case bloodExam = "Exame de sangue"
-    case bodyMeasurements = "Dados demograficos"
-    case alergies = "Alergias"
+    case medicalOccurrences = "ocorrenciasMedicas"
+    case symptomJournal = "diarioDeSintomas"
+    case bloodExam = "exameDeSangue"
+    case bodyMeasurements = "dadosDemograficos"
+    case alergies = "alergia"
     case medicines = "Remedios"
     case vaccines = "Vacinas"
 }

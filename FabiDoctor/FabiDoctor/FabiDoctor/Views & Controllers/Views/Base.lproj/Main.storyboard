@@ -12,6 +12,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="TitilliumWeb-Regular.ttf">
+            <string>TitilliumWeb-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -291,14 +296,23 @@
                                                         <constraint firstAttribute="width" secondItem="gFW-5U-MCf" secondAttribute="height" multiplier="1:1" id="XVV-DT-TgK"/>
                                                     </constraints>
                                                 </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FA6-8l-ftb">
+                                                    <rect key="frame" x="23" y="128" width="38.5" height="26"/>
+                                                    <fontDescription key="fontDescription" name="TitilliumWeb-Regular" family="Titillium Web" pointSize="17"/>
+                                                    <color key="textColor" red="0.60784313725490191" green="0.60784313725490191" blue="0.60784313725490191" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                         </view>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="gFW-5U-MCf" secondAttribute="trailing" constant="13" id="Jo6-x1-648"/>
                                             <constraint firstItem="gFW-5U-MCf" firstAttribute="top" secondItem="NQe-OP-IM9" secondAttribute="top" constant="18" id="Z2R-dO-Sb6"/>
+                                            <constraint firstItem="FA6-8l-ftb" firstAttribute="leading" secondItem="NQe-OP-IM9" secondAttribute="leadingMargin" constant="15" id="b8A-ou-dQO"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="FA6-8l-ftb" secondAttribute="bottom" constant="10" id="h1e-ZS-SJ9"/>
                                         </constraints>
                                         <connections>
                                             <outlet property="imageView" destination="gFW-5U-MCf" id="qd3-dP-mRV"/>
+                                            <outlet property="recordLabel" destination="FA6-8l-ftb" id="RJT-0b-oKJ"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -467,7 +481,7 @@
             </objects>
             <point key="canvasLocation" x="3817" y="4758"/>
         </scene>
-        <!--Configurações-->
+        <!--Ficha médica-->
         <scene sceneID="qF5-Rm-w7K">
             <objects>
                 <viewController id="8YI-yD-iIy" customClass="SettingsViewController" customModule="FabiDoctor" customModuleProvider="target" sceneMemberID="viewController">
@@ -475,18 +489,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Em desenvolvimento" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FWa-o8-8ft">
-                                <rect key="frame" x="108" y="323" width="159" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="view" translatesAutoresizingMaskIntoConstraints="NO" id="Wjy-B7-YgL">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vxe-9v-a8j" firstAttribute="trailing" secondItem="Wjy-B7-YgL" secondAttribute="trailing" id="Lq1-gc-2wy"/>
+                            <constraint firstItem="Wjy-B7-YgL" firstAttribute="top" secondItem="vxe-9v-a8j" secondAttribute="top" id="adX-XG-maz"/>
+                            <constraint firstItem="vxe-9v-a8j" firstAttribute="bottom" secondItem="Wjy-B7-YgL" secondAttribute="bottom" id="sOU-Y2-JD7"/>
+                            <constraint firstItem="Wjy-B7-YgL" firstAttribute="leading" secondItem="vxe-9v-a8j" secondAttribute="leading" id="usZ-Ty-Jpj"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="vxe-9v-a8j"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Configurações" id="3kP-1B-qNE"/>
+                    <navigationItem key="navigationItem" title="Ficha médica" id="3kP-1B-qNE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Hd-Zd-0GP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -865,4 +881,7 @@
             <point key="canvasLocation" x="3817" y="2474"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="view" width="650" height="958"/>
+    </resources>
 </document>
