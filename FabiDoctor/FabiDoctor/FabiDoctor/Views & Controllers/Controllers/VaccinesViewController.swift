@@ -16,13 +16,16 @@ class VaccinesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.vaccines = AppShared.user.vaccines
-
         // Setting title of the navigation bar
         self.navigationItem.title = "Carteira de vacinação"
 
         // Setting "add" bar button
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addButtonPressed))
+    }
+
+    override func viewDidAppear(_ animated: Bool) {
+        self.vaccines = AppShared.user.vaccines
+        self.collectionView.reloadData()
     }
 
     @objc func addButtonPressed() {

@@ -13,6 +13,8 @@ public enum ViewControllerType: String {
 
     case vaccines = "VaccinesVC"
     case addVaccine = "AddVaccineVC"
+    case alergies = "AlergiesVC"
+    case addAlergy = "AddAlergyVC"
 
 }
 

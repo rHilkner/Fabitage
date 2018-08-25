@@ -10,8 +10,6 @@ import UIKit
 
 class AddVaccineViewController: UIViewController {
 
-    var date: Date?
-
     @IBOutlet weak var typeTextField: UITextField!
     @IBOutlet weak var localTextField: UITextField!
     @IBOutlet weak var datePicker: UIDatePicker!
@@ -19,6 +17,7 @@ class AddVaccineViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.navigationItem.backBarButtonItem?.title = ""
         self.navigationItem.title = "Adicionar vacina"
         self.datePicker.date = Date()
     }
@@ -28,10 +27,13 @@ class AddVaccineViewController: UIViewController {
             print("-> WARNING: Vaccine type in nil")
             return
         }
+
         let local = self.localTextField.text
         let date = self.datePicker.date
         let vaccine = Vaccine(type: vaccineType, local: local, date: date)
         let userServices = UserServices()
         userServices.add(vaccine: vaccine)
+        self.dismiss(animated: true, completion: nil)
     }
+
 }

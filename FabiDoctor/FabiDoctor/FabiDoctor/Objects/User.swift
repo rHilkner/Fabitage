@@ -8,18 +8,18 @@
 
 import Foundation
 
-class User {
+class User: Codable {
 
     var name: String?
     var birthDate: Date?
 
     // Medical data collected
+    var symptoms: [Symptom] = [] // graf??
     var heights: [Height] = [] // graf
     var weights: [Weight] = [] // graf
     var imcs: [IMC] = [] // graf
     var bloodExams: [BloodExam] = [] // graf --treta, mock pls
     var medicines: [Medicine] = [] // graf
-    var symptoms: [Symptom] = [] // graf??
     var alergies: [Alergy] = []
     var vaccines: [Vaccine] = [] // collect
 
@@ -30,7 +30,5 @@ class User {
     // 1. CollectionView
     // 2. Graf + TableView
     // 3. TableView
-
-    // Fazer método genérico p/ 
 
 }
