@@ -49,6 +49,17 @@
 		C6E0C7E82131B2810043B7D6 /* AddHeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E0C7E72131B2810043B7D6 /* AddHeightViewController.swift */; };
 		C6E0C7EA2131B28B0043B7D6 /* WeightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E0C7E92131B28B0043B7D6 /* WeightsViewController.swift */; };
 		C6E0C7EC2131B2B60043B7D6 /* AddWeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E0C7EB2131B2B60043B7D6 /* AddWeightViewController.swift */; };
+		C6E0C7FC2131DD8F0043B7D6 /* TitilliumWeb-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6E0C7F82131DC940043B7D6 /* TitilliumWeb-Black.ttf */; };
+		C6E0C7FD2131DD8F0043B7D6 /* TitilliumWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6E0C7F22131DC830043B7D6 /* TitilliumWeb-Bold.ttf */; };
+		C6E0C7FE2131DD8F0043B7D6 /* TitilliumWeb-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6E0C7F32131DC860043B7D6 /* TitilliumWeb-BoldItalic.ttf */; };
+		C6E0C7FF2131DD8F0043B7D6 /* TitilliumWeb-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6E0C7F12131DC810043B7D6 /* TitilliumWeb-ExtraLight.ttf */; };
+		C6E0C8002131DD8F0043B7D6 /* TitilliumWeb-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6E0C7F42131DC890043B7D6 /* TitilliumWeb-ExtraLightItalic.ttf */; };
+		C6E0C8012131DD8F0043B7D6 /* TitilliumWeb-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6E0C7F52131DC8D0043B7D6 /* TitilliumWeb-Italic.ttf */; };
+		C6E0C8022131DD8F0043B7D6 /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6E0C7F72131DC920043B7D6 /* TitilliumWeb-Light.ttf */; };
+		C6E0C8032131DD8F0043B7D6 /* TitilliumWeb-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6E0C7F62131DC8F0043B7D6 /* TitilliumWeb-LightItalic.ttf */; };
+		C6E0C8042131DD8F0043B7D6 /* TitilliumWeb-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6E0C7FB2131DC9D0043B7D6 /* TitilliumWeb-Regular.ttf */; };
+		C6E0C8052131DD8F0043B7D6 /* TitilliumWeb-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6E0C7F92131DC970043B7D6 /* TitilliumWeb-SemiBold.ttf */; };
+		C6E0C8062131DD8F0043B7D6 /* TitilliumWeb-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6E0C7FA2131DC9A0043B7D6 /* TitilliumWeb-SemiBoldItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -335,9 +346,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6E0C8062131DD8F0043B7D6 /* TitilliumWeb-SemiBoldItalic.ttf in Resources */,
+				C6E0C7FD2131DD8F0043B7D6 /* TitilliumWeb-Bold.ttf in Resources */,
 				C6081B002130D3E900C0D90D /* LaunchScreen.storyboard in Resources */,
 				C6081AFD2130D3E900C0D90D /* Assets.xcassets in Resources */,
+				C6E0C8012131DD8F0043B7D6 /* TitilliumWeb-Italic.ttf in Resources */,
 				C6081AFB2130D3E700C0D90D /* Main.storyboard in Resources */,
+				C6E0C8032131DD8F0043B7D6 /* TitilliumWeb-LightItalic.ttf in Resources */,
+				C6E0C8042131DD8F0043B7D6 /* TitilliumWeb-Regular.ttf in Resources */,
+				C6E0C7FE2131DD8F0043B7D6 /* TitilliumWeb-BoldItalic.ttf in Resources */,
+				C6E0C8002131DD8F0043B7D6 /* TitilliumWeb-ExtraLightItalic.ttf in Resources */,
+				C6E0C7FC2131DD8F0043B7D6 /* TitilliumWeb-Black.ttf in Resources */,
+				C6E0C8022131DD8F0043B7D6 /* TitilliumWeb-Light.ttf in Resources */,
+				C6E0C8052131DD8F0043B7D6 /* TitilliumWeb-SemiBold.ttf in Resources */,
+				C6E0C7FF2131DD8F0043B7D6 /* TitilliumWeb-ExtraLight.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
