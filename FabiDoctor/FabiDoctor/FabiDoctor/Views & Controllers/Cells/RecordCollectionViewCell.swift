@@ -9,7 +9,7 @@
 import UIKit
 
 class RecordCollectionViewCell: UICollectionViewCell {
-    
+
     @IBOutlet weak var imageView: UIImageView!
     
 }

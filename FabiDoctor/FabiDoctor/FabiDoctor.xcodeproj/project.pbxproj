@@ -29,6 +29,15 @@
 		C6081B2B21313FF000C0D90D /* UserServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B2A21313FF000C0D90D /* UserServices.swift */; };
 		C6081B2D2131426900C0D90D /* RecordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B2C2131426900C0D90D /* RecordCollectionViewCell.swift */; };
 		C6081B2F21314FD400C0D90D /* ImageNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B2E21314FD400C0D90D /* ImageNames.swift */; };
+		C6E0C7BE213183900043B7D6 /* BloodExam.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E0C7BD213183900043B7D6 /* BloodExam.swift */; };
+		C6E0C7C02131839E0043B7D6 /* Alergy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E0C7BF2131839E0043B7D6 /* Alergy.swift */; };
+		C6E0C7C2213183A50043B7D6 /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E0C7C1213183A50043B7D6 /* Medicine.swift */; };
+		C6E0C7C4213183AC0043B7D6 /* Vaccine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E0C7C3213183AC0043B7D6 /* Vaccine.swift */; };
+		C6E0C7C6213183CA0043B7D6 /* Height.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E0C7C5213183CA0043B7D6 /* Height.swift */; };
+		C6E0C7C8213184CC0043B7D6 /* Weight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E0C7C7213184CC0043B7D6 /* Weight.swift */; };
+		C6E0C7CA213184D50043B7D6 /* IMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E0C7C9213184D50043B7D6 /* IMC.swift */; };
+		C6E0C7CD21318EF70043B7D6 /* VaccineCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E0C7CC21318EF70043B7D6 /* VaccineCollectionViewCell.swift */; };
+		C6E0C7CF213192230043B7D6 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E0C7CE213192230043B7D6 /* DateExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +65,15 @@
 		C6081B2A21313FF000C0D90D /* UserServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServices.swift; sourceTree = "<group>"; };
 		C6081B2C2131426900C0D90D /* RecordCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCollectionViewCell.swift; sourceTree = "<group>"; };
 		C6081B2E21314FD400C0D90D /* ImageNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageNames.swift; sourceTree = "<group>"; };
+		C6E0C7BD213183900043B7D6 /* BloodExam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodExam.swift; sourceTree = "<group>"; };
+		C6E0C7BF2131839E0043B7D6 /* Alergy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alergy.swift; sourceTree = "<group>"; };
+		C6E0C7C1213183A50043B7D6 /* Medicine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
+		C6E0C7C3213183AC0043B7D6 /* Vaccine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vaccine.swift; sourceTree = "<group>"; };
+		C6E0C7C5213183CA0043B7D6 /* Height.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Height.swift; sourceTree = "<group>"; };
+		C6E0C7C7213184CC0043B7D6 /* Weight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weight.swift; sourceTree = "<group>"; };
+		C6E0C7C9213184D50043B7D6 /* IMC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMC.swift; sourceTree = "<group>"; };
+		C6E0C7CC21318EF70043B7D6 /* VaccineCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineCollectionViewCell.swift; sourceTree = "<group>"; };
+		C6E0C7CE213192230043B7D6 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +109,9 @@
 				C6081B012130D3E900C0D90D /* Info.plist */,
 				C6081AFC2130D3E900C0D90D /* Assets.xcassets */,
 				C6081AF52130D3E700C0D90D /* AppDelegate.swift */,
+				C6081B192131397400C0D90D /* Factories & Functionalities */,
+				C6E0C7CB213184EE0043B7D6 /* Objects */,
 				C6081B2021313BB200C0D90D /* Data Structures & Enums */,
-				C6081B192131397400C0D90D /* Factories */,
 				C6081B2921313FDD00C0D90D /* Services */,
 				C6081B072131366C00C0D90D /* Views & Controllers */,
 				C6081B2521313EA100C0D90D /* AppShared.swift */,
@@ -115,12 +134,12 @@
 			children = (
 				C6081AF72130D3E700C0D90D /* LoginViewController.swift */,
 				C6081B0A2131372000C0D90D /* SignUpViewController.swift */,
+				C6081B162131389700C0D90D /* SettingsViewController.swift */,
 				C6081B0C2131373000C0D90D /* FabitoViewController.swift */,
 				C6081B0E2131375D00C0D90D /* AddSymptomViewController.swift */,
 				C6081B102131379500C0D90D /* RecordsViewController.swift */,
 				C6081B122131380B00C0D90D /* PresentDataViewController.swift */,
 				C6081B142131382300C0D90D /* AddDataViewController.swift */,
-				C6081B162131389700C0D90D /* SettingsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -138,26 +157,26 @@
 			isa = PBXGroup;
 			children = (
 				C6081B2C2131426900C0D90D /* RecordCollectionViewCell.swift */,
+				C6E0C7CC21318EF70043B7D6 /* VaccineCollectionViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		C6081B192131397400C0D90D /* Factories */ = {
+		C6081B192131397400C0D90D /* Factories & Functionalities */ = {
 			isa = PBXGroup;
 			children = (
 				C6081B1A2131399100C0D90D /* CellFactory.swift */,
 				C6081B1C213139AA00C0D90D /* ViewControllerFactory.swift */,
 				C6081B1E213139B100C0D90D /* SegueIds.swift */,
+				C6E0C7CE213192230043B7D6 /* DateExtension.swift */,
 			);
-			path = Factories;
+			path = "Factories & Functionalities";
 			sourceTree = "<group>";
 		};
 		C6081B2021313BB200C0D90D /* Data Structures & Enums */ = {
 			isa = PBXGroup;
 			children = (
-				C6081B2121313BD000C0D90D /* BodyInfo.swift */,
-				C6081B2321313DE000C0D90D /* Symptom.swift */,
-				C6081B2721313EC400C0D90D /* User.swift */,
+				C6E0C7BC213183700043B7D6 /* Medical Data */,
 				C6081B2E21314FD400C0D90D /* ImageNames.swift */,
 			);
 			path = "Data Structures & Enums";
@@ -169,6 +188,30 @@
 				C6081B2A21313FF000C0D90D /* UserServices.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		C6E0C7BC213183700043B7D6 /* Medical Data */ = {
+			isa = PBXGroup;
+			children = (
+				C6081B2121313BD000C0D90D /* BodyInfo.swift */,
+				C6081B2321313DE000C0D90D /* Symptom.swift */,
+				C6E0C7BD213183900043B7D6 /* BloodExam.swift */,
+				C6E0C7BF2131839E0043B7D6 /* Alergy.swift */,
+				C6E0C7C1213183A50043B7D6 /* Medicine.swift */,
+				C6E0C7C3213183AC0043B7D6 /* Vaccine.swift */,
+				C6E0C7C5213183CA0043B7D6 /* Height.swift */,
+				C6E0C7C7213184CC0043B7D6 /* Weight.swift */,
+				C6E0C7C9213184D50043B7D6 /* IMC.swift */,
+			);
+			path = "Medical Data";
+			sourceTree = "<group>";
+		};
+		C6E0C7CB213184EE0043B7D6 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				C6081B2721313EC400C0D90D /* User.swift */,
+			);
+			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,10 +286,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6081B2F21314FD400C0D90D /* ImageNames.swift in Sources */,
+				C6E0C7CF213192230043B7D6 /* DateExtension.swift in Sources */,
 				C6081B152131382300C0D90D /* AddDataViewController.swift in Sources */,
 				C6081B0F2131375D00C0D90D /* AddSymptomViewController.swift in Sources */,
 				C6081B0B2131372000C0D90D /* SignUpViewController.swift in Sources */,
 				C6081B132131380B00C0D90D /* PresentDataViewController.swift in Sources */,
+				C6E0C7C8213184CC0043B7D6 /* Weight.swift in Sources */,
+				C6E0C7C02131839E0043B7D6 /* Alergy.swift in Sources */,
 				C6081B2821313EC400C0D90D /* User.swift in Sources */,
 				C6081B1B2131399100C0D90D /* CellFactory.swift in Sources */,
 				C6081B2621313EA100C0D90D /* AppShared.swift in Sources */,
@@ -255,10 +301,16 @@
 				C6081AF82130D3E700C0D90D /* LoginViewController.swift in Sources */,
 				C6081AF62130D3E700C0D90D /* AppDelegate.swift in Sources */,
 				C6081B112131379500C0D90D /* RecordsViewController.swift in Sources */,
+				C6E0C7CA213184D50043B7D6 /* IMC.swift in Sources */,
+				C6E0C7C4213183AC0043B7D6 /* Vaccine.swift in Sources */,
 				C6081B2221313BD000C0D90D /* BodyInfo.swift in Sources */,
+				C6E0C7C6213183CA0043B7D6 /* Height.swift in Sources */,
+				C6E0C7CD21318EF70043B7D6 /* VaccineCollectionViewCell.swift in Sources */,
+				C6E0C7C2213183A50043B7D6 /* Medicine.swift in Sources */,
 				C6081B172131389700C0D90D /* SettingsViewController.swift in Sources */,
 				C6081B2B21313FF000C0D90D /* UserServices.swift in Sources */,
 				C6081B1F213139B100C0D90D /* SegueIds.swift in Sources */,
+				C6E0C7BE213183900043B7D6 /* BloodExam.swift in Sources */,
 				C6081B1D213139AA00C0D90D /* ViewControllerFactory.swift in Sources */,
 				C6081B2D2131426900C0D90D /* RecordCollectionViewCell.swift in Sources */,
 			);

@@ -1,5 +1,5 @@
 //
-//  ViewControllerFactory.swift
+//  Alergy.swift
 //  FabiDoctor
 //
 //  Created by Rodrigo Hilkner on 25/08/18.
@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct Alergy {
+    var alergyType: String
+    var date: Date
+}

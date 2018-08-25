@@ -1,5 +1,5 @@
 //
-//  User.swift
+//  BloodExam.swift
 //  FabiDoctor
 //
 //  Created by Rodrigo Hilkner on 25/08/18.
@@ -7,9 +7,10 @@
 //
 
 import Foundation
+import UIKit
 
-class User {
-    
-    var symptoms: [Symptom] = []
-
+struct BloodExam {
+    var image: UIImage
+    var date: Date
+    // TODO: Inserir tipos de dados da ficha abaixo
 }

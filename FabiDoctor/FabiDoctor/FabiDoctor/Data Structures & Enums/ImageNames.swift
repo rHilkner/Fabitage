@@ -11,7 +11,7 @@ import Foundation
 public enum ImageNames: String {
     case symptomJournal = "Diario de sintomas"
     case bloodExam = "Exame de sangue"
-    case demographicData = "Dados demograficos"
+    case bodyMeasurements = "Dados demograficos"
     case alergies = "Alergias"
     case medicines = "Remedios"
     case vaccines = "Vacinas"
