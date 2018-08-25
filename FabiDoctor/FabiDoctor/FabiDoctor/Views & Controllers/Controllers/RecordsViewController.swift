@@ -96,7 +96,8 @@ extension RecordsViewController {
     }
 
     func goToVaccinesVC() {
-
+        let vaccinesVC = ViewControllerFactory.instantiateVC(ofType: .vaccines)
+        vaccinesVC
     }
 
 }

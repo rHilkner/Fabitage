@@ -16,8 +16,6 @@
 		C6081B0D2131373000C0D90D /* FabitoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B0C2131373000C0D90D /* FabitoViewController.swift */; };
 		C6081B0F2131375D00C0D90D /* AddSymptomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B0E2131375D00C0D90D /* AddSymptomViewController.swift */; };
 		C6081B112131379500C0D90D /* RecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B102131379500C0D90D /* RecordsViewController.swift */; };
-		C6081B132131380B00C0D90D /* PresentDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B122131380B00C0D90D /* PresentDataViewController.swift */; };
-		C6081B152131382300C0D90D /* AddDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B142131382300C0D90D /* AddDataViewController.swift */; };
 		C6081B172131389700C0D90D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B162131389700C0D90D /* SettingsViewController.swift */; };
 		C6081B1B2131399100C0D90D /* CellFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B1A2131399100C0D90D /* CellFactory.swift */; };
 		C6081B1D213139AA00C0D90D /* ViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6081B1C213139AA00C0D90D /* ViewControllerFactory.swift */; };
@@ -38,6 +36,8 @@
 		C6E0C7CA213184D50043B7D6 /* IMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E0C7C9213184D50043B7D6 /* IMC.swift */; };
 		C6E0C7CD21318EF70043B7D6 /* VaccineCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E0C7CC21318EF70043B7D6 /* VaccineCollectionViewCell.swift */; };
 		C6E0C7CF213192230043B7D6 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E0C7CE213192230043B7D6 /* DateExtension.swift */; };
+		C6E0C7D321319CCB0043B7D6 /* VaccinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E0C7D221319CCB0043B7D6 /* VaccinesViewController.swift */; };
+		C6E0C7D52131A3170043B7D6 /* AddVaccineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E0C7D42131A3170043B7D6 /* AddVaccineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,8 +52,6 @@
 		C6081B0C2131373000C0D90D /* FabitoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabitoViewController.swift; sourceTree = "<group>"; };
 		C6081B0E2131375D00C0D90D /* AddSymptomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSymptomViewController.swift; sourceTree = "<group>"; };
 		C6081B102131379500C0D90D /* RecordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsViewController.swift; sourceTree = "<group>"; };
-		C6081B122131380B00C0D90D /* PresentDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentDataViewController.swift; sourceTree = "<group>"; };
-		C6081B142131382300C0D90D /* AddDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDataViewController.swift; sourceTree = "<group>"; };
 		C6081B162131389700C0D90D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		C6081B1A2131399100C0D90D /* CellFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellFactory.swift; sourceTree = "<group>"; };
 		C6081B1C213139AA00C0D90D /* ViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFactory.swift; sourceTree = "<group>"; };
@@ -74,6 +72,8 @@
 		C6E0C7C9213184D50043B7D6 /* IMC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMC.swift; sourceTree = "<group>"; };
 		C6E0C7CC21318EF70043B7D6 /* VaccineCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineCollectionViewCell.swift; sourceTree = "<group>"; };
 		C6E0C7CE213192230043B7D6 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		C6E0C7D221319CCB0043B7D6 /* VaccinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccinesViewController.swift; sourceTree = "<group>"; };
+		C6E0C7D42131A3170043B7D6 /* AddVaccineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVaccineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,8 +138,8 @@
 				C6081B0C2131373000C0D90D /* FabitoViewController.swift */,
 				C6081B0E2131375D00C0D90D /* AddSymptomViewController.swift */,
 				C6081B102131379500C0D90D /* RecordsViewController.swift */,
-				C6081B122131380B00C0D90D /* PresentDataViewController.swift */,
-				C6081B142131382300C0D90D /* AddDataViewController.swift */,
+				C6E0C7D221319CCB0043B7D6 /* VaccinesViewController.swift */,
+				C6E0C7D42131A3170043B7D6 /* AddVaccineViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -287,10 +287,8 @@
 			files = (
 				C6081B2F21314FD400C0D90D /* ImageNames.swift in Sources */,
 				C6E0C7CF213192230043B7D6 /* DateExtension.swift in Sources */,
-				C6081B152131382300C0D90D /* AddDataViewController.swift in Sources */,
 				C6081B0F2131375D00C0D90D /* AddSymptomViewController.swift in Sources */,
 				C6081B0B2131372000C0D90D /* SignUpViewController.swift in Sources */,
-				C6081B132131380B00C0D90D /* PresentDataViewController.swift in Sources */,
 				C6E0C7C8213184CC0043B7D6 /* Weight.swift in Sources */,
 				C6E0C7C02131839E0043B7D6 /* Alergy.swift in Sources */,
 				C6081B2821313EC400C0D90D /* User.swift in Sources */,
@@ -307,11 +305,13 @@
 				C6E0C7C6213183CA0043B7D6 /* Height.swift in Sources */,
 				C6E0C7CD21318EF70043B7D6 /* VaccineCollectionViewCell.swift in Sources */,
 				C6E0C7C2213183A50043B7D6 /* Medicine.swift in Sources */,
+				C6E0C7D321319CCB0043B7D6 /* VaccinesViewController.swift in Sources */,
 				C6081B172131389700C0D90D /* SettingsViewController.swift in Sources */,
 				C6081B2B21313FF000C0D90D /* UserServices.swift in Sources */,
 				C6081B1F213139B100C0D90D /* SegueIds.swift in Sources */,
 				C6E0C7BE213183900043B7D6 /* BloodExam.swift in Sources */,
 				C6081B1D213139AA00C0D90D /* ViewControllerFactory.swift in Sources */,
+				C6E0C7D52131A3170043B7D6 /* AddVaccineViewController.swift in Sources */,
 				C6081B2D2131426900C0D90D /* RecordCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

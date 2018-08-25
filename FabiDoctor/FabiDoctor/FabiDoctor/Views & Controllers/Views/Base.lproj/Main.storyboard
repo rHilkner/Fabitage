@@ -74,7 +74,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Fabito aqui"/>
                                 <connections>
-                                    <action selector="fabitoButtonPressed:" destination="Zwb-QM-cPO" eventType="touchUpInside" id="h5G-FU-bHj"/>
+                                    <action selector="fabitoButtonPressed" destination="Zwb-QM-cPO" eventType="touchUpInside" id="bf4-Fb-YoA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -248,10 +248,10 @@
             </objects>
             <point key="canvasLocation" x="1972" y="1711.3943028485758"/>
         </scene>
-        <!--View Controller-->
+        <!--Vaccines View Controller-->
         <scene sceneID="8ga-IF-ISF">
             <objects>
-                <viewController id="mzo-QP-aUM" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="VaccinesVC" id="mzo-QP-aUM" customClass="VaccinesViewController" customModule="FabiDoctor" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="svc-ia-Gpf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -312,10 +312,81 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6cC-Yd-qkc"/>
                     </view>
+                    <connections>
+                        <outlet property="collectionView" destination="iyh-ap-mIY" id="6Va-GM-CgD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XBV-fg-PqS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2984.8000000000002" y="1710.4947526236883"/>
+        </scene>
+        <!--Add Vaccine View Controller-->
+        <scene sceneID="clX-KF-QHh">
+            <objects>
+                <viewController storyboardIdentifier="AddVaccineVC" id="7Gm-xD-HFf" customClass="AddVaccineViewController" customModule="FabiDoctor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="afe-e0-G4T">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nome da vacina" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g75-bQ-7mJ">
+                                <rect key="frame" x="40" y="126" width="295" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adicione o nome da vacina e data de aplicação" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JUl-IB-YmZ">
+                                <rect key="frame" x="40" y="60" width="295" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="401-Qe-wce">
+                                <rect key="frame" x="27" y="219" width="320" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="556901929.32631195">
+                                    <!--2018-08-25 14:58:49 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y6v-vz-lr3">
+                                <rect key="frame" x="169" y="460" width="37" height="30"/>
+                                <state key="normal" title="Done"/>
+                                <connections>
+                                    <action selector="doneButtonPressed" destination="7Gm-xD-HFf" eventType="touchUpInside" id="RW5-68-U4D"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Local da vacina (opcional)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ua4-jk-3HD">
+                                <rect key="frame" x="40" y="164" width="295" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ua4-jk-3HD" firstAttribute="trailing" secondItem="g75-bQ-7mJ" secondAttribute="trailing" id="8cM-PZ-EIg"/>
+                            <constraint firstItem="ua4-jk-3HD" firstAttribute="leading" secondItem="g75-bQ-7mJ" secondAttribute="leading" id="9ib-2Z-wi0"/>
+                            <constraint firstItem="JUl-IB-YmZ" firstAttribute="top" secondItem="FTq-8C-OJ7" secondAttribute="top" constant="40" id="AUJ-XV-kFy"/>
+                            <constraint firstItem="g75-bQ-7mJ" firstAttribute="top" secondItem="JUl-IB-YmZ" secondAttribute="bottom" constant="25" id="GNT-2V-R17"/>
+                            <constraint firstItem="y6v-vz-lr3" firstAttribute="top" secondItem="401-Qe-wce" secondAttribute="bottom" constant="25" id="QNg-nv-EUj"/>
+                            <constraint firstItem="ua4-jk-3HD" firstAttribute="top" secondItem="g75-bQ-7mJ" secondAttribute="bottom" constant="8" id="REh-6V-HOt"/>
+                            <constraint firstItem="401-Qe-wce" firstAttribute="top" secondItem="ua4-jk-3HD" secondAttribute="bottom" constant="25" id="RId-0B-fOc"/>
+                            <constraint firstItem="401-Qe-wce" firstAttribute="centerX" secondItem="FTq-8C-OJ7" secondAttribute="centerX" id="bVL-tG-5nO"/>
+                            <constraint firstItem="JUl-IB-YmZ" firstAttribute="leading" secondItem="FTq-8C-OJ7" secondAttribute="leading" constant="40" id="bXn-6v-rDA"/>
+                            <constraint firstItem="g75-bQ-7mJ" firstAttribute="leading" secondItem="FTq-8C-OJ7" secondAttribute="leading" constant="40" id="hnK-3M-aNS"/>
+                            <constraint firstItem="FTq-8C-OJ7" firstAttribute="trailing" secondItem="g75-bQ-7mJ" secondAttribute="trailing" constant="40" id="r95-fB-V3K"/>
+                            <constraint firstItem="y6v-vz-lr3" firstAttribute="centerX" secondItem="FTq-8C-OJ7" secondAttribute="centerX" id="sXy-3K-R85"/>
+                            <constraint firstAttribute="trailing" secondItem="JUl-IB-YmZ" secondAttribute="trailing" constant="40" id="xLf-b6-tQT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FTq-8C-OJ7"/>
+                    </view>
+                    <connections>
+                        <outlet property="datePicker" destination="401-Qe-wce" id="huY-Qs-jpe"/>
+                        <outlet property="localTextField" destination="ua4-jk-3HD" id="Clo-sf-IWa"/>
+                        <outlet property="typeTextField" destination="g75-bQ-7mJ" id="aXd-Y3-Mhg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MD2-V3-Hq2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3816.8000000000002" y="1710.4947526236883"/>
         </scene>
         <!--Configurações-->
         <scene sceneID="qF5-Rm-w7K">

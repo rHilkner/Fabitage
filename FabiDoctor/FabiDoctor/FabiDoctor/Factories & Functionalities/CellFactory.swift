@@ -22,9 +22,10 @@ class CellFactory {
         return cell
     }
 
-    static func vaccineCell(collectionView: UICollectionView, indexPath: IndexPath, vaccineType: UIImage, vaccineDate: Date) -> VaccineCollectionViewCell {
+    static func vaccineCell(collectionView: UICollectionView, indexPath: IndexPath, vaccine: Vaccine) -> VaccineCollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CellType.vaccine.rawValue, for: indexPath) as! VaccineCollectionViewCell
-        cell.imageView.image = image
+        cell.vaccineTypeLabel.text = vaccine.type
+        cell.vaccineDateLabel.text = vaccine.date.toString(dateFormat: "dd/MM/yy")
         return cell
     }
 

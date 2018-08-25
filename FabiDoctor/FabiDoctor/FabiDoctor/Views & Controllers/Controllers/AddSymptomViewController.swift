@@ -25,6 +25,7 @@ class AddSymptomViewController: UIViewController {
         }
 
         self.navigationItem.title = self.bodyInfo!.rawValue
+        self.datePicker.date = Date()
     }
 
 }
